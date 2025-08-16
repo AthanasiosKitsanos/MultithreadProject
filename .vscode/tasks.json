@@ -131,6 +131,28 @@
             "problemMatcher":[
                 "$gcc"
             ]
+        },
+
+        {
+            "label": "Atomic",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/atomic.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Atomic/fatomic.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/atomic",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/atomic.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
         }
     ]
 }
