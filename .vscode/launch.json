@@ -89,6 +89,21 @@
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "Promise"
+        },
+
+        {
+            "name": "Atomic",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/atomic.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Atomic"
         }
     ]
 }
