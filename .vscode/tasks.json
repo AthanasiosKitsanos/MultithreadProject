@@ -1,0 +1,114 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Threads",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/threads.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Threads/functions.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Threads",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/threads.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
+        },
+
+        {
+            "label": "Parameters",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/parameters.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Parameters/fthreads.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Parameters",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/parameters.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
+        },
+
+        {
+            "label": "Sync",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/sync.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Sync/fsync.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Sync",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/sync.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
+        },
+
+        {
+            "label": "Deadlock",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/deadlock.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Deadlock/fdeadlock.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Deadlock",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/deadlock.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
+        },
+
+        {
+            "label": "Conditional",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/conditional.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Conditional/fconditional.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Conditional",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/conditional.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
+        }
+    ]
+}

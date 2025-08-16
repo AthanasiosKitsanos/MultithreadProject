@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/Multithreading",
+        "${workspaceFolder}/Multithreading/Headers",
+        "${workspaceFolder}/Multithreading/Src",
+        "${workspaceFolder}/Multithreading/Classes/Threads",
+        "${workspaceFolder}/Multithreading/Classes/Parameters",
+        "${workspaceFolder}/Multithreading/Classes/Sync",
+        "${workspaceFolder}/Multithreading/Classes/Deadlock",
+        "${workspaceFolder}/Multithreading/Classes/Conditional"
+      ],
+      "defines": [],
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,79 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Threads",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/threads.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Threads"
+        },
+
+        {
+            "name": "Parameters",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/parameters.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Parameters"
+        },
+
+        {
+            "name": "Sync",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/sync.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Sync"
+        },
+
+        {
+            "name": "Deadlock",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/deadlock.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Deadlock"
+        },
+
+        {
+            "name": "Conditional",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/conditional.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Conditional"
+        }
+    ]
+}
