@@ -74,6 +74,21 @@
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "Conditional"
+        },
+
+        {
+            "name": "Promise",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${workspaceFolder}/Multithreading/Build/promise.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Promise"
         }
     ]
 }

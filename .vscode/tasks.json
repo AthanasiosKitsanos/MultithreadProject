@@ -109,6 +109,28 @@
             "problemMatcher":[
                 "$gcc"
             ]
+        },
+
+        {
+            "label": "Promise",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Multithreading/Src/promise.cpp",
+                "${workspaceFolder}/Multithreading/Classes/Promise/fpromise.cpp",
+                "-I${workspaceFolder}/Multithreading/Headers",
+                "-I${workspaceFolder}/Multithreading/Classes/Promise",
+                "-o",
+                "${workspaceFolder}/Multithreading/Build/promise.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[
+                "$gcc"
+            ]
         }
     ]
 }
