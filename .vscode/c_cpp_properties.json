@@ -10,7 +10,8 @@
         "${workspaceFolder}/Multithreading/Classes/Parameters",
         "${workspaceFolder}/Multithreading/Classes/Sync",
         "${workspaceFolder}/Multithreading/Classes/Deadlock",
-        "${workspaceFolder}/Multithreading/Classes/Conditional"
+        "${workspaceFolder}/Multithreading/Classes/Conditional",
+        "${workspaceFolder}/Multithreading/Classes/Promise"
       ],
       "defines": [],
       "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
